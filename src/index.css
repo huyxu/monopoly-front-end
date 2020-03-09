@@ -1,10 +1,48 @@
-body {
+/* PRIMARY COLOR: #a7ff83 */
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.row {
+  margin: 0;
+  width: 100%;
+}
+
+.col {
+  padding: 0;
+}
+
+p {
+  margin: 3px 0;
+}
+
+.game__icon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  background-image: url(./icon/gameIcon.png);
+  z-index: 999;
+  background-size: cover;
+}
+
+/* GAME WAY ROW */
+.way__row {
+  background-color: aquamarine;
+}
+
+/* GAME WAY TOP */
+.way__col {
+  background-color: aquamarine;
 }
 
 code {

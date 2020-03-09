@@ -1,0 +1,15 @@
+.slot__special--lucky {
+  justify-content: center;
+  align-items: center;
+  background-color: #faee1c;
+}
+
+.slot__special--unlucky {
+  justify-content: center;
+  align-items: center;
+  background-color: #a56cc1;
+}
+
+.slot__icon {
+  font-size: 50px;
+}

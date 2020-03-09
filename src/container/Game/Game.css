@@ -1,0 +1,8 @@
+.game__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #a7ff83 0%, #eee 50%, #a7ff83);
+}

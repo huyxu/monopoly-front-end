@@ -1,0 +1,11 @@
+.game__box {
+  box-shadow: 5px -5px 49px 1px rgba(0, 0, 0, 0.46);
+  width: 700px;
+  height: 700px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+}

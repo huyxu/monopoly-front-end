@@ -1,0 +1,9 @@
+/* GAME SIDEBAR */
+.game__sidebar {
+  width: 20%;
+  height: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}

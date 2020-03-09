@@ -1,0 +1,4 @@
+.way__row--top {
+  grid-column: 3 / 13;
+  grid-row: 1 / 3;
+}

@@ -1,0 +1,4 @@
+.way__col--right {
+  grid-column: 13 / 15;
+  grid-row: 3 / 13;
+}

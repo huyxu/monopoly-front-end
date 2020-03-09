@@ -1,0 +1,9 @@
+.game__dice {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice__icon {
+  font-size: 100px;
+}

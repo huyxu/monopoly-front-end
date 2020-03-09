@@ -1,0 +1,17 @@
+.player__inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player__icon {
+  font-size: 80px;
+}
+
+.players__money {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
