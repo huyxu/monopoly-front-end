@@ -1,7 +1,8 @@
 .game__slot {
-  background-color: #83e85a;
+  /* background-color: #83e85a; */
   border: 0.5px solid #fff4e3;
   font-family: "Noto Sans SC", sans-serif;
+  border: 1px solid #dddddd;
 }
 
 .game__slot--top {
@@ -70,7 +71,7 @@
   margin: 0 1px;
   height: 100%;
   border-radius: 50%;
-  background-color: #ff304f;
+  background-color: #c2fcab;
 }
 
 /* WAY COL SLOT */
@@ -112,5 +113,5 @@
   height: 22.5%;
   margin: 1px 0;
   border-radius: 50%;
-  background-color: #ff304f;
+  background-color: #c2fcab;
 }

@@ -12,7 +12,7 @@ class SlotSpecial extends Component {
               this.props.position
             }
           >
-            <ion-icon name="help-outline" className="slot__icon" />
+            <ion-icon name="help-outline" class="slot__icon" />
           </div>
         ) : (
           <div
@@ -21,7 +21,7 @@ class SlotSpecial extends Component {
               this.props.position
             }
           >
-            <ion-icon name="alert-outline" className="slot__icon" />
+            <ion-icon name="alert-outline" class="slot__icon" />
           </div>
         )}
       </Fragment>
@@ -30,3 +30,5 @@ class SlotSpecial extends Component {
 }
 
 export default SlotSpecial;
+
+// slot__icon: className --> class : wtf???

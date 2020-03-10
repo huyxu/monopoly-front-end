@@ -7,3 +7,7 @@
 .dice__icon {
   font-size: 100px;
 }
+
+.dice__icon:not(:last-child) {
+  margin-right: 10px;
+}

@@ -4,7 +4,7 @@
   height: 700px;
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid red;
+  border: 1px solid #dddddd;
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(14, 1fr);

@@ -36,16 +36,16 @@ p {
 }
 
 /* GAME WAY ROW */
-.way__row {
+/* .way__row {
   background-color: aquamarine;
-}
+} */
 
 /* GAME WAY TOP */
-.way__col {
+/* .way__col {
   background-color: aquamarine;
-}
+} */
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

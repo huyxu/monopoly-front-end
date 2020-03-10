@@ -1,0 +1,4 @@
+1.	SlotSpecial.js
+2. 	PlayerInf.js
+3. 	Dice.css
+4. 	Slot.css
