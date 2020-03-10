@@ -1,3 +1,7 @@
+ion-icon {
+  font-size: 50px;
+}
+
 .slot__special--lucky {
   justify-content: center;
   align-items: center;
@@ -8,8 +12,4 @@
   justify-content: center;
   align-items: center;
   background-color: #a56cc1;
-}
-
-.slot__icon {
-  font-size: 50px;
 }
