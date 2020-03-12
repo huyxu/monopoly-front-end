@@ -6,6 +6,6 @@
   overflow: hidden;
   border: 1px solid #dddddd;
   display: grid;
-  grid-template-columns: repeat(14, 1fr);
-  grid-template-rows: repeat(14, 1fr);
+  grid-template-columns: 100px repeat(8, 1fr) 100px;
+  grid-template-rows: 100px repeat(8, 1fr) 100px;
 }

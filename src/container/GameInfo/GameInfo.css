@@ -1,6 +1,6 @@
 .game__inf {
-  grid-column: 3 / 13;
-  grid-row: 3 / 13;
+  grid-column: 2 / 10;
+  grid-row: 2 / 10;
   background-color: #dedede;
   color: #525252;
   padding: 15px;
