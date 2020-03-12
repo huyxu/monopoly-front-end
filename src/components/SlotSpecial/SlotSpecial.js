@@ -30,5 +30,3 @@ class SlotSpecial extends Component {
 }
 
 export default SlotSpecial;
-
-// slot__icon: className --> class : wtf??? => DONE

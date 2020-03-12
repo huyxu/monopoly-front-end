@@ -36,5 +36,3 @@ class PlayerInfo extends Component {
 }
 
 export default PlayerInfo;
-
-// player__icon: className --> class : wtf??? => DONE
