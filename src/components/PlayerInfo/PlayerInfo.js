@@ -4,7 +4,8 @@ import "./PlayerInfo.css";
 class PlayerInfo extends Component {
   render() {
     return (
-      <div className="row player__container">
+      // player__container lay o dau
+      <div className="row player__container"> 
         <div className="col-6 player__inf">
           <h3 className="player__name">Huy Xu</h3>
           <ion-icon name="person-sharp" class="player__icon" />
@@ -36,4 +37,4 @@ class PlayerInfo extends Component {
 
 export default PlayerInfo;
 
-// player__icon: className --> class : wtf???
+// player__icon: className --> class : wtf??? => DONE
