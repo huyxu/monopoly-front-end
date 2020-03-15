@@ -8,7 +8,7 @@ class Slot extends Component {
         {this.props.position === "top" || this.props.position === "left" ? (
           <Fragment>
             <div className="slot__content">
-              <p className="slot__title">Hưng Yên</p>
+              <p className="slot__title">{this.props.name}</p>
               <p className="slot__price">$3500</p>
             </div>
             <div className="slot__house">
@@ -23,7 +23,7 @@ class Slot extends Component {
               <div className="house" />
             </div>
             <div className="slot__content">
-              <p className="slot__title">Hưng Yên</p>
+              <p className="slot__title">{this.props.name}</p>
               <p className="slot__price">$3500</p>
             </div>
           </Fragment>

@@ -1,7 +1,7 @@
-const slotArr = [
+export const slotBottom = [
   // SLOT BOTTOM ROW
   {
-    id: 0,
+    id: 104,
     name: "Go",
     slotRowPos: "10/11",
     slotColPos: "10/11",
@@ -15,7 +15,7 @@ const slotArr = [
     slotColor: "#757575"
   },
   {
-    id: 2,
+    id: 101,
     name: "Khi Van",
     slotRowPos: "10/11",
     slotColPos: "8/9",
@@ -29,7 +29,7 @@ const slotArr = [
     slotColor: "#757575"
   },
   {
-    id: 4,
+    id: 103,
     name: "Income Tax",
     slotRowPos: "10/11",
     slotColPos: "6/7",
@@ -43,7 +43,7 @@ const slotArr = [
     slotColor: "#66BB6A"
   },
   {
-    id: 6,
+    id: 100,
     name: "Chance",
     slotRowPos: "10/11",
     slotColPos: "4/5",
@@ -64,14 +64,15 @@ const slotArr = [
     slotColor: "#66BB6A"
   },
   {
-    id: 9,
+    id: 107,
     name: "Visit Jail",
     slotRowPos: "10/11",
     slotColPos: "1/2",
     slotColor: ""
-  },
-
-  // SLOT LEFT COL
+  }
+];
+// SLOT LEFT COL
+export const slotLeft = [
   {
     id: 10,
     name: "Hải Dương",
@@ -94,7 +95,7 @@ const slotArr = [
     slotColor: "#8D6E63"
   },
   {
-    id: 13,
+    id: 102,
     name: "Bus Stop",
     slotRowPos: "6/7",
     slotColPos: "1/2",
@@ -108,7 +109,7 @@ const slotArr = [
     slotColor: "#AB47BC"
   },
   {
-    id: 15,
+    id: 101,
     name: "Chest",
     slotRowPos: "4/5",
     slotColPos: "1/2",
@@ -129,13 +130,15 @@ const slotArr = [
     slotColor: "#AB47BC"
   },
   {
-    id: 18,
+    id: 106,
     name: "Airport",
     slotRowPos: "1/2",
     slotColPos: "1/2",
     slotColor: ""
-  },
+  }
+];
 
+export const slotTop = [
   // SLOT TOP ROW
   {
     id: 19,
@@ -145,7 +148,7 @@ const slotArr = [
     slotColor: "#5D4037"
   },
   {
-    id: 20,
+    id: 100,
     name: "Chance",
     slotRowPos: "1/2",
     slotColPos: "3/4",
@@ -166,7 +169,7 @@ const slotArr = [
     slotColor: "#5D4037"
   },
   {
-    id: 23,
+    id: 102,
     name: "Bus Stop",
     slotRowPos: "1/2",
     slotColPos: "6/7",
@@ -194,14 +197,15 @@ const slotArr = [
     slotColor: "#00ACC1"
   },
   {
-    id: 27,
+    id: 107,
     name: "Jail",
     slotRowPos: "1/2",
     slotColPos: "10/11",
     slotColor: ""
-  },
-
-  // SLOT COL RIGHT
+  }
+];
+// SLOT COL RIGHT
+export const slotRight = [
   {
     id: 28,
     name: "Nha Trang",
@@ -217,7 +221,7 @@ const slotArr = [
     slotColor: "#00796B"
   },
   {
-    id: 30,
+    id: 101,
     name: "Chest",
     slotRowPos: "4/5",
     slotColPos: "10/11",
@@ -231,14 +235,14 @@ const slotArr = [
     slotColor: "#00796B"
   },
   {
-    id: 32,
+    id: 102,
     name: "Bus Stop",
     slotRowPos: "6/7",
     slotColPos: "10/11",
     slotColor: ""
   },
   {
-    id: 33,
+    id: 100,
     name: "Chance",
     slotRowPos: "7/8",
     slotColPos: "10/11",
@@ -259,5 +263,3 @@ const slotArr = [
     slotColor: "#F06292"
   }
 ];
-
-module.exports = { slotArr };

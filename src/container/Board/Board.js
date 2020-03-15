@@ -6,7 +6,6 @@ import WayTop from "../../components/WayTop/WayTop";
 import WayRight from "../../components/WayRight/WayRight";
 import WayBottom from "../../components/WayBottom/WayBottom";
 import WayLeft from "../../components/WayLeft/WayLeft";
-
 class Board extends Component {
   render() {
     return (
