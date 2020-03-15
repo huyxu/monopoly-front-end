@@ -10,19 +10,28 @@ class WayRight extends Component {
     const position = "right";
     const slots = [];
     slotRight.forEach(el => {
-      if (el.id === 100) {
+      // Chance Slot
+      if (el.id === 6 || el.id === 20 || el.id === 33) {
         slots.push(<SlotSpecial position={position} type={"lucky"} />);
-      } else if (el.id === 101) {
+      }
+      // Chest Slot
+      else if (el.id === 2 || el.id === 15 || el.id === 30) {
         slots.push(<SlotSpecial position={position} type={"unlucky"} />);
-      } else if (
-        el.id === 107 ||
-        el.id === 104 ||
-        el.id === 105 ||
-        el.id === 106
-      ) {
+      }
+      // Square Slot
+      else if (el.id === 0 || el.id === 9 || el.id === 18 || el.id === 27) {
         return;
-      } else {
-        slots.push(<Slot position={position} name={el.name} />);
+      }
+      // Normal Slot
+      else {
+        slots.push(
+          <Slot
+            position={position}
+            name={el.name}
+            price={el.price}
+            color={el.slotColor}
+          />
+        );
       }
     });
     return (

@@ -46,7 +46,7 @@
 .way__row .slot__content {
   width: 100%;
   height: 85%;
-  background-color: #eee;
+  /* background-color: #eee; */
   text-align: center;
 }
 
@@ -87,7 +87,7 @@
 .way__col .slot__content {
   width: 85%;
   height: 100%;
-  background-color: #eee;
+  /* background-color: #eee; */
   text-align: center;
 }
 
