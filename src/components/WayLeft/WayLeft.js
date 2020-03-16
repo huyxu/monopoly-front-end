@@ -4,6 +4,8 @@ import Slot from "../Slot/Slot";
 import SlotSpecial from "../SlotSpecial/SlotSpecial";
 
 import { slotLeft } from "../../data/slotArr";
+import SlotStation from "../SlotStation/SlotStation";
+import SlotTax from "../SlotTax/SlotTax";
 
 class WayLeft extends Component {
   render() {
@@ -22,6 +24,14 @@ class WayLeft extends Component {
       // Square Slot
       else if (el.id === 0 || el.id === 9 || el.id === 18 || el.id === 27) {
         return;
+      }
+      // Tax Slot
+      else if (el.id === 4) {
+        slots.unshift(<SlotTax position={position} />);
+      }
+      // Station Slot
+      else if (el.id === 13 || el.id === 23 || el.id === 32) {
+        slots.push(<SlotStation position={position} />);
       }
       // Normal Slot
       else {

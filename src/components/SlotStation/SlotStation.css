@@ -1,0 +1,11 @@
+.slot__content--bus {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  text-align: center;
+}
+
+.bus--icon {
+  color: black;
+  margin-right: 4px;
+}

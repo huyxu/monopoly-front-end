@@ -1,3 +1,12 @@
+// slotChance: 6, 20, 33
+// slotChest: 2, 15, 30
+// Bus: 13, 23, 32
+// Tax: 4,
+// Go : 0,
+// visitJail: 9,
+// AirPort: 18,
+// Jail: 27
+
 export const slotBottom = [
   // SLOT BOTTOM ROW
   {
